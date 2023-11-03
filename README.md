@@ -23,7 +23,7 @@ helmet
 mongoSanitize
 sanitizeHtml
 
-** Frontend: **
+**Frontend:**
 
 HTML
 CSS
@@ -31,7 +31,7 @@ Bootstrap
 JavaScript
 jQuery
 
-** Dependencies **
+**Dependencies:**
 
 Cloudinary
 Multer
@@ -40,17 +40,17 @@ Passport
 
 # Features:
 
-** Authentication: **
+**Authentication:**
 
 - User Registration and Login: Users can register and log in to the system.
 - PassportJS Integration: PassportJS is used for secure user authentication.
 
-** Authorization: **
+**Authorization:**
 
 - User Authorization: To perform actions like adding, updating, or deleting, users must be logged in.
 - Post and Review Ownership: Users can only modify their own posts and reviews.
 
-** Functionalities: **
+**Functionalities:**
 
 - Interactive Map Display: Campgrounds are displayed on a clustered map using the Mapbox API.
 - Fuzzy Search and Autocomplete: MongoDB Atlas search enables fuzzy search with autocomplete functionality.
