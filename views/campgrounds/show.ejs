@@ -31,7 +31,7 @@
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item text-muted"><%= campground.location%></li>
-                <li class="list-group-item">Submitted by <%= campground.author ? campground.author.username : 'Unknown' %></li>
+                <li class="list-group-item">Submitted by <%= campground.author ? campground.author.username : 'YelpCamp' %></li>
                 <li class="list-group-item">$<%= campground.price%>/night</li>
             </ul>
 
@@ -85,7 +85,7 @@
       </form>
       <% } %>
       <% for(let review of campground.reviews){ %>
-      <div class="card mb-3">
+      <div class="card mb-3" id="review-card">
         <div class="card-body">
           <h5 class="card-title"><%=review.author.username %></h5>
           <p class="starability-result" data-rating="<%=review.rating %>">

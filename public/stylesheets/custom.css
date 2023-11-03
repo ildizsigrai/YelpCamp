@@ -1,0 +1,75 @@
+.navbar.bg-dark {
+  background-color: #e1eedd !important;
+}
+
+.footer.bg-dark {
+  background-color: #e1eedd !important;
+}
+
+.btn-primary {
+  background-color: #183a1d !important;
+  outline: none !important; 
+  box-shadow: none !important;
+  border-color: #183a1d !important;
+  color: #e1eedd;
+}
+.btn-primary:focus {
+  box-shadow: 0 0 0 2px #e1eedd !important; /* Set a custom focus style */
+}
+
+.btn-success {
+  background-color: #183a1d !important;
+  outline: none !important; 
+  box-shadow: none !important;
+  border-color: #183a1d !important;
+  color: #e1eedd;
+}
+
+h1, h2, h3, h5, p {
+  color: #183a1d !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.navbar-brand {
+  color: #183a1d !important;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #183a1d !important;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+#card-index {
+  border-color: #fefbe9;
+  border-width: 3px;
+  box-shadow: 0 0 4px #fefbe9;
+  padding: 10px;
+}
+#card-index:hover {
+  box-shadow: 0 0 8px #183a1d;
+}
+
+#review-card {
+  margin-top: 10px;
+}
+
+.navbar-toggler {
+  color: #183a1d !important;
+
+}
+.navbar-collapse {
+  color: #183a1d !important;
+
+}
+
+.form-label {
+  color: #183a1d !important;
+  font-weight: 400;
+}
+
+.card-title {
+  font-weight: 600 !important;
+}
