@@ -1,5 +1,5 @@
 # YelpCamp
-<a href="https://yelpcamp-fv4k.onrender.com/"/>
+[YelpCamp Website](https://yelpcamp-fv4k.onrender.com/)
 
 YelpCamp is a full-stack website project where users can create, review and browse campgrounds. This project is a part of Colt Steele's Web Dev Bootcamp course.
 
