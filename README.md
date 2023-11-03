@@ -7,36 +7,36 @@ To interact more actively with the website, users can log in to edit campground 
 
 **Backend and Infrastructure:**
 
-Node.js
-Mongoose
-Express.js
-MongoDB
-REST
-Data Associations
-AWS
-passport (local-strategy)
-JOI
-connect-flash
-morgan
-sessions
-helmet
-mongoSanitize
-sanitizeHtml
+- Node.js
+- Mongoose
+- Express.js
+- MongoDB
+- REST
+- Data Associations
+- AWS
+- passport (local-strategy)
+- JOI
+- connect-flash
+- morgan
+- sessions
+- helmet
+- mongoSanitize
+- sanitizeHtml
 
 **Frontend:**
 
-HTML
-CSS
-Bootstrap
-JavaScript
-jQuery
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- jQuery
 
 **Dependencies:**
 
-Cloudinary
-Multer
-Moment.js
-Passport 
+- Cloudinary
+- Multer
+- Moment.js
+- Passport 
 
 # Features:
 
