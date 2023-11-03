@@ -1,33 +1,62 @@
 # YelpCamp
+YelpCamp is a full-stack website project where users can create, review and browse campgrounds. This project is a part of Colt Steele's Web Dev Bootcamp course.
 
-YelpCamp is a full-stack website project where users can create, review and browse campgrounds. 
-This project is a part of Colt Steele's Web Dev Bootcamp course.
-
-To interact more actively with the website, users can log in to edit campground details or leave comments. 
-Users can only edit or delete campgrounds and comments that they have added themselves.
+To interact more actively with the website, users can log in to edit campground details or leave comments. Users can only edit or delete campgrounds and comments that they have added themselves.
 
 # Technologies Used
-**HTML5:** HTML5 is the markup language used for creating web pages and web applications, providing the structure for the website's content.
 
-**CSS3:** CSS3 is employed to define the presentation and styling of the web pages, ensuring an appealing visual experience.
+**Backend and Infrastructure:**
 
-**Bootstrap:** We utilize the Bootstrap framework for front-end development, enabling rapid and responsive website design.
+Node.js
+Mongoose
+Express.js
+MongoDB
+REST
+Data Associations
+AWS
+passport (local-strategy)
+JOI
+connect-flash
+morgan
+sessions
+helmet
+mongoSanitize
+sanitizeHtml
 
-**jQuery:** This cross-platform JavaScript library simplifies client-side scripting for enhancing user interactions.
+**Frontend:**
 
-**DOM Manipulation:** The Document Object Model (DOM) manipulation enables dynamic access and updates to the content, structure, and style of the web pages.
+HTML
+CSS
+Bootstrap
+JavaScript
+jQuery
 
-**Node.js:** Node.js is an open-source, cross-platform JavaScript runtime environment used to execute JavaScript code on the server side.
+**Dependencies:**
 
-**Express.js:** Express.js is employed for building web applications and APIs. It connects middleware and facilitates the creation of robust web services.
+Cloudinary
+Multer
+Moment.js
+Passport 
 
-**REST:** Representational State Transfer (REST) is the architectural style used to develop web services, ensuring scalability and ease of maintenance.
+# Features:
 
-**MongoDB:** MongoDB, an open-source NoSQL database, is utilized to store user information, campground details, and comments securely.
+**Authentication:**
 
-**PassportJS:** PassportJS serves as the authentication middleware for Node.js, providing flexibility and modularity for user authentication within the Express-based web application.
+- User Registration and Login: Users can register and log in to the system.
+- PassportJS Integration: PassportJS is used for secure user authentication.
 
-**Data Associations:** The project uses data associations to link user data with respective campgrounds and comments using reference methods, ensuring proper data organization.
+**Authorization:**
 
-**AWS:** Amazon Web Services (AWS) hosts the MongoDB database on an Amazon EC2 instance, ensuring scalable and reliable data storage.
+- User Authorization: To perform actions like adding, updating, or deleting, users must be logged in.
+- Post and Review Ownership: Users can only modify their own posts and reviews.
 
+**Functionalities:**
+
+- Interactive Map Display: Campgrounds are displayed on a clustered map using the Mapbox API.
+- Fuzzy Search and Autocomplete: MongoDB Atlas search enables fuzzy search with autocomplete functionality.
+- Validation: Both client-side and server-side validations are implemented.
+- Image Management: Campground images are uploaded to Cloudinary. Users can add and delete images after creating a campground.
+- CRUD Operations: CRUD (Create, Read, Update, Delete) functions are available for campgrounds.
+- Flash Messages: Flash messages provide user feedback.
+- Sessions and Cookies: Sessions and cookies are utilized for user management.
+- Location Display: Each campground is displayed on a separate map with its location.
