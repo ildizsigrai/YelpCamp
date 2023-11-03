@@ -5,7 +5,7 @@ To interact more actively with the website, users can log in to edit campground 
 
 # Technologies Used
 
-** Backend and Infrastructure: **
+**Backend and Infrastructure:**
 
 Node.js
 Mongoose
