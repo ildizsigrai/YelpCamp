@@ -10,7 +10,7 @@ const UserSchema = new Schema ({
   }
 });
 
-//add a username, field for password, make sure that usernames are not dupliated to the UserSchemam
+//add a username, field for password, make sure that usernames are not duplicated to the UserSchemam
 UserSchema.plugin(passportLocalMongoose);
 
 module.exports = mongoose.model('User', UserSchema);
