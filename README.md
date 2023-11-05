@@ -12,7 +12,7 @@ To interact more actively with the website, users can log in to edit campground 
 - Node.js
 - Mongoose
 - Express.js
-- MongoDB
+- MongoDB, Mongo Atlas
 - REST
 - Data Associations
 - AWS
