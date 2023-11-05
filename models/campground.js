@@ -42,7 +42,7 @@ const CampgroundSchema = new Schema({
     ]
 }, opts);
 
-//adding costumized pop up mmessage when clicked on map
+//adding customized pop up message when clicked on map
 //link to the campground on that exact location
 CampgroundSchema.virtual('properties.popUpMarkup').get(function () {
     return `
