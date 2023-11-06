@@ -1,7 +1,7 @@
 # YelpCamp
 [YelpCamp Website](https://yelpcamp-fv4k.onrender.com/)
 
-YelpCamp is a full-stack website project where users can create, review and browse campgrounds. This project is a part of Colt Steele's Web Dev Bootcamp course.
+YelpCamp is a significant milestone for me as it represents my first big project in web development. It is a full-stack website where users can create, review and browse campgrounds. This project is a part of Colt Steele's Web Dev Bootcamp course.
 
 To interact more actively with the website, users can log in to edit campground details or leave comments. Users can only edit or delete campgrounds and comments that they have added themselves.
 
